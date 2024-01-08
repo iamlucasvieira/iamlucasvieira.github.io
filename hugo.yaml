@@ -25,7 +25,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
   enableEmoji: true
 
@@ -64,6 +64,9 @@ menu:
   main:
     - name: Blog
       url: blog
+      weight: 5
+    - name: Projects
+      url: projects/
       weight: 5
     - name: Search
       url: search/
