@@ -1,0 +1,76 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Lucas Vieira
+theme: PaperMod
+
+pygmentsUseClasses: true
+
+params:
+  env: production
+  title: Lucas Vieira
+  description: Personal Website
+  keywords: [Blog, Portfolio, Lucas]
+  author: Lucas vieira
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  enableEmoji: true
+
+  homeInfoParams:
+    Title: Hey, I'm Lucas! 👋
+    Content: Aerospace Engineer with a passion for solving problems with code
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: https://github.com/iamlucasvieira
+    - name: linkedin
+      title: View Linkedin Profile
+      url: https://www.linkedin.com/in/iamlucasvieira/
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
