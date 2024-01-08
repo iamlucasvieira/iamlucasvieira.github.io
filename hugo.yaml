@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://lucasvieira.nl/
 languageCode: en-us
 title: Lucas Vieira
 theme: PaperMod
@@ -40,6 +40,10 @@ params:
     - name: linkedin
       title: View Linkedin Profile
       url: https://www.linkedin.com/in/iamlucasvieira/
+  editPost:
+    URL: "https://github.com/iamlucasvieira/website/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
   assets:
     disableHLJS: true
