@@ -3,7 +3,7 @@ author: "Lucas vieira"
 title: "Parachute and Wind Simulator"
 description: ""
 summary: ""
-date: "2024-01-08T21:30:35+01:00"
+date: "2024-01-07T21:30:35+01:00"
 tags: ["project", "simulator", "aerodynamics", "python"]
 categories: ["project"]
 series: []
