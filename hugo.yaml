@@ -62,8 +62,8 @@ markup:
 
 menu:
   main:
-    - name: Archive
-      url: archives
+    - name: Blog
+      url: blog
       weight: 5
     - name: Search
       url: search/
