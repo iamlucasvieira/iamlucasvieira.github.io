@@ -11,7 +11,7 @@ draft: false
 hideSummary: true
 hideMeta: true
 cover:
-  image: "setup.jpg"
+  image: "images/setup.jpg"
   alt: ""
   caption: ""
   hiddenInList: true
@@ -27,7 +27,7 @@ Before my project, drone testing was a laborious, manual task. Engineers had to 
 
 I created a framework that allows engineers to pre-program a communication sequence with the drones, which automatically evaluates the drones' responses. To make things smoother, I built a command-line tool to execute these tests at the push of a button, saving both time and sanity.
 
-{{< figure src="aat.png" caption="CLI interface of the automated testing tool." align="center" >}}
+{{< figure src="images/aat.png" caption="CLI interface of the automated testing tool." align="center" >}}
 
 ## Overcoming Difficulties
 

@@ -11,7 +11,7 @@ draft: false
 hideSummary: true
 hideMeta: true
 cover:
-  image: "example.jpg"
+  image: "images/example.jpg"
   alt: ""
   caption: ""
   hiddenInList: true
@@ -27,7 +27,7 @@ Fuel consumption and noise pollution are significant drawbacks associated with a
 
 I created a tool that helps find the best flight routes based on fuel efficiency and minimal noise disturbance. You can enter the flight's starting and ending points, and the tool will turn it into a multi-objective linear programming problem to find the best route. Finally, it generates a report that lists all possible routes and their corresponding impacts.
 
-{{< figure src="solution.png" caption="Finding a route that avoids populated areas while still finding a short path" align="center" >}}
+{{< figure src="images/solution.png" caption="Finding a route that avoids populated areas while still finding a short path" align="center" >}}
 
 ## Technology Stack
 

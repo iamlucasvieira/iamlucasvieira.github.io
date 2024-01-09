@@ -11,7 +11,7 @@ draft: false
 hideSummary: true
 hideMeta: true
 cover:
-  image: "sperry.jpeg"
+  image: "images/sperry.jpeg"
   alt: ""
   caption: "In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight"
   hiddenInList: true
@@ -29,7 +29,7 @@ While air travel is among the safest modes of transportation, traditional autopi
 
 My project addresses this issue by developing an autopilot that can adapt to unforeseen conditions. To achieve this, I created a novel algorithm that combines Distributional Soft Actor-Critic (DSAC)[^1] and Incremental Dual Heuristic Programming (IDHP)[^2]. DSAC excels in offline learning by using precomputed knowledge to make quick decisions. In contrast, IDHP adapts in real-time, known as online learning. By bringing the two together, the resulting hybrid algorithm allows the autopilot system to adjust in real-time to adverse conditions, enhancing its immediate and future response capabilities.
 
-{{< figure src="hybrid.png" caption="Topology of hybrid actor network." align="center" >}}
+{{< figure src="images/hybrid.png" caption="Topology of hybrid actor network." align="center" >}}
 
 ## Experiments
 

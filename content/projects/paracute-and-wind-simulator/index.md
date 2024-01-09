@@ -11,7 +11,7 @@ draft: false
 hideSummary: true
 hideMeta: true
 cover:
-  image: "flow.gif"
+  image: "images/flow.gif"
   alt: ""
   caption: ""
   hiddenInList: true
@@ -27,7 +27,7 @@ Designing rocket recovery parachutes is a complex task, especially when starting
 
 I collaborated with a team member to create a software tool that simulates the airflow dynamics around a parachute. The tool allows users to input various parameters to define the shape of the parachute and then run a simulation. We implemented numerical methods to simulate airflow and algorithms to manage collisions between the parachute cloth and ropes. This tool enabled the engineers at DARE to quickly evaluate design modifications and provided valuable experience to the simulation team in building such software from scratch.
 
-{{< figure src="parachute.gif" caption="Parachute cloth and ropes simulation" align="center" >}}
+{{< figure src="images/parachute.gif" caption="Parachute cloth and ropes simulation" align="center" >}}
 
 ## Technology Stack
 
