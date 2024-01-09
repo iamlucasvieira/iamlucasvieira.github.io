@@ -11,6 +11,7 @@ params:
   description: Personal Website
   keywords: [Blog, Portfolio, Lucas]
   author: Lucas vieira
+  mainSections: [posts]
 
   ShowReadingTime: true
   ShowShareButtons: true
