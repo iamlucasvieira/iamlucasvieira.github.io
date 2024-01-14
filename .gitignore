@@ -28,3 +28,6 @@ _testmain.go
 /public
 .hugo_build.lock
 resources/_gen/
+
+comtemplate.yml
+
