@@ -12,6 +12,7 @@ params:
   keywords: [Blog, Portfolio, Lucas]
   author: Lucas vieira
   mainSections: [posts]
+  projectsSections: [projects]
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -32,7 +33,7 @@ params:
 
   homeInfoParams:
     Title: Hey, I'm Lucas! 👋
-    Content: Aerospace Engineer with a passion for solving problems with code
+    Content: Aerospace engineer turned software developer.
 
   socialIcons:
     - name: github
