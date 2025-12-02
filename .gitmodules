@@ -2,4 +2,4 @@
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "themes/PaperMod/"]
-	branch = v7.0
+	branch = v8.0
