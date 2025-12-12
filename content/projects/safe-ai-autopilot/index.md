@@ -1,21 +1,12 @@
----
-author: "Lucas vieira"
-title: "Safe AI Autopilot"
-description: ""
-summary: ""
-date: "2024-01-08T22:43:54+01:00"
-tags: ["project", "AI", "ML", "RL", "aircraft", "aviation", "python"]
-categories: ["project"]
-series: []
-draft: false
-hideSummary: true
-hideMeta: true
-cover:
-  image: "images/sperry.jpeg"
-  alt: ""
-  caption: "In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight"
-  hiddenInList: true
----
++++
+title = "Safe AI Autopilot"
+date = "2024-01-08T22:43:54+01:00"
+tags = ["aviation", "ai"]
++++
+
+# Safe AI Autopilot
+
+{{< figure src="images/sperry.jpeg" caption="In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight" align="center" >}}
 
 I developed a machine-learning autopilot as part of my Master's thesis. The autopilot can control an aircraft even when unexpected failures occur, such as a plane losing part of its wing. By adapting the control strategy, the autopilot ensures the aircraft can still fly safely. If you are interested in the technical details, check:
 

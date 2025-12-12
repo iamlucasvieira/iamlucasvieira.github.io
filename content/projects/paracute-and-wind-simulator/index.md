@@ -1,23 +1,14 @@
----
-author: "Lucas vieira"
-title: "Parachute and Wind Simulator"
-description: ""
-summary: ""
-date: "2024-01-07T21:30:35+01:00"
-tags: ["project", "simulator", "aerodynamics", "python"]
-categories: ["project"]
-series: []
-draft: false
-hideSummary: true
-hideMeta: true
-cover:
-  image: "images/flow.gif"
-  alt: ""
-  caption: ""
-  hiddenInList: true
----
++++
+title = "Parachute and Wind Simulator"
+date = "2024-01-07T21:30:35+01:00"
+tags = ["space", "simulation"]
++++
+
+# Parachute and Wind Simulator
 
 At [Delft Aerospace Rocket Engineering (DARE)](https://dare.tudelft.nl/), I was part of the simulation team where we tackled the complexities of parachute aerodynamics. There, I created a wind tunnel simulator that simulates and generates data on how a parachute interacts with airflow during deployment.
+
+{{< figure src="images/flow.gif" caption="Parachute and wind simulator" align="center" >}}
 
 ## The Challenge
 

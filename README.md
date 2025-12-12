@@ -7,7 +7,7 @@ My personal website built with Hugo, featuring my blog posts and projects.
 ## Tech Stack
 
 - [Hugo](https://gohugo.io/) (v0.121.0) - Static site generator
-- [PaperMod](https://github.com/adityatelange/hugo-PaperMod) - Hugo theme
+- [Hugo Bear Blog](https://github.com/janraasch/hugo-bearblog) - Hugo theme
 - GitHub Pages - Hosting
 - GitHub Actions - Automated deployment
 
@@ -60,10 +60,9 @@ The output will be in the `public/` directory.
 ├── content/          # Markdown content files
 │   ├── posts/       # Blog posts
 │   └── projects/    # Project pages
-├── layouts/         # Custom layout overrides
-├── themes/          # PaperMod theme (submodule)
+├── themes/          # Hugo Bear Blog theme (submodule)
 ├── public/          # Generated static site (not in git)
-└── hugo.yaml        # Hugo configuration
+└── hugo.toml        # Hugo configuration
 ```
 
 ## Deployment

@@ -3,3 +3,6 @@
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "themes/PaperMod/"]
 	branch = v8.0
+[submodule "themes/hugo-bearblog"]
+	path = themes/hugo-bearblog
+	url = https://github.com/janraasch/hugo-bearblog.git

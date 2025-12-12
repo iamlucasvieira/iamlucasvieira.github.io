@@ -1,23 +1,14 @@
----
-author: "Lucas vieira"
-title: "Drone Testing Framework"
-description: ""
-summary: ""
-date: "2024-01-08T22:37:53+01:00"
-tags: ["project", "automation", "drone", "testing", "framework"]
-categories: ["project"]
-series: []
-draft: false
-hideSummary: true
-hideMeta: true
-cover:
-  image: "images/setup.jpg"
-  alt: ""
-  caption: ""
-  hiddenInList: true
----
++++
+title = "Drone Testing Framework"
+date = "2024-01-08T22:37:53+01:00"
+tags = ["automation"]
++++
+
+# Drone Testing Framework
 
 My software engineering internship with [Avy](https://avy.eu/) allowed me to streamline the testing process for the company's drones. I created a framework that facilitates setting up tests and a user-friendly command-line tool to run them.
+
+{{< figure src="images/setup.jpg" caption="Setup of the drone testing framework" align="center" >}}
 
 ## The Challenge
 

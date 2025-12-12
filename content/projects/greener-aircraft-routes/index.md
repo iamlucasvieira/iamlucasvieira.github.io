@@ -1,23 +1,14 @@
----
-author: "Lucas vieira"
-title: "Greener Aircraft Routes"
-description: "Greener Aircraft Routes"
-summary: ""
-date: "2024-01-06T22:29:38+01:00"
-tags: ["project", "optimisation", "aircraft", "fuel", "sustainability"]
-categories: ["project"]
-series: []
-draft: false
-hideSummary: true
-hideMeta: true
-cover:
-  image: "images/example.jpg"
-  alt: ""
-  caption: ""
-  hiddenInList: true
----
++++
+title = "Greener Aircraft Routes"
+date = "2024-01-06T22:29:38+01:00"
+tags = ["aviation", "simulation"]
++++
+
+# Greener Aircraft Routes
 
 I have developed a tool that assists airlines in designing aircraft routes that minimise fuel consumption and noise emissions. Intelligent routes are crucial to achieving a greener future for the aviation industry. The algorithm uses data from the Dutch population and aircraft fuel equations. Airlines can benefit from this tool, as it helps them save on fuel expenses while also reducing their impact on communities near airports.
+
+{{< figure src="images/example.jpg" caption="Greener Aircraft Routes" align="center" >}}
 
 ## The Challenge
 
