@@ -4,7 +4,9 @@ menu = "main"
 weight = 1
 +++
 
-Backend engineer by day, side project collector by night.
+|                                                             |                                                                                                                                               |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Backend engineer by day, side project collector by night._ | [[GitHub]](https://github.com/iamlucasvieira) [[LinkedIn]](https://www.linkedin.com/in/iamlucasvieira/) [[Email]](mailto:lucas6eng@gmail.com) |
 
 ---
 
