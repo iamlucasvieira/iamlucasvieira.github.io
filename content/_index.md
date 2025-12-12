@@ -4,24 +4,37 @@ menu = "main"
 weight = 1
 +++
 
-# A match made in heaven
+# Hey, I'm Lucas 👋
 
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
-
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
-
-[Go to the original bear blog](https://bearblog.dev/).
+Backend engineer by day, side project collector by night.
 
 ---
 
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
+## What I Build
 
-**Use this theme, and find out!**
+**At work:**
 
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
+- High-performance backend systems serving multiple production applications
+- Python packages: prediction algorithms, scheduling simulations, estimation tools
+- Full ownership of our tech stack: Pyramid, FastAPI, PostgreSQL, Docker, Kubernetes, GitHub Actions, and ArgoCD
+
+**For fun:**
+
+- CLIs and TUIs that solve my own problems (then I use them everywhere)
+- Open source contributions across Python, Rust, and Go projects
+- Game development experiments
 
 ---
 
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
+## The Stack
 
-Each page is ~5kb, and you can **host your blog yourself**.
+|                |                                                                |
+| -------------- | -------------------------------------------------------------- |
+| Languages      | `Python`, `Rust`, `Go`, `JavaScript`, `C++`, `MATLAB`          |
+| Backend & Data | `FastAPI`, `Django`, `Pyramid`, `PostgreSQL`, `MySQL`, `Redis` |
+| Infrastructure | `Docker`, `Kubernetes`, `ArgoCD`, `GitHub Actions`, `Azure`    |
+| ML & Other     | `PyTorch`, `Vue.js`, `(neo)Vim` enthusiast                     |
+
+---
+
+Check out my [projects](/projects) to see what I've shipped, or read the [blog](/blog) to see how I think through problems.
