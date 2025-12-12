@@ -31,4 +31,4 @@ For fun:
 | Languages      | `Python`, `Rust`, `Go`, `JavaScript`, `C++`, `MATLAB`          |
 | Backend & Data | `FastAPI`, `Django`, `Pyramid`, `PostgreSQL`, `MySQL`, `Redis` |
 | Infrastructure | `Docker`, `Kubernetes`, `ArgoCD`, `GitHub Actions`, `Azure`    |
-| ML & Other     | `PyTorch`, `Vue.js`, `(neo)Vim` enthusiast                     |
+| ML & Other     | `PyTorch`, `Vue.js`, `(neo)Vim`                                |

@@ -1,10 +1,12 @@
 +++
 title = "Safe AI Autopilot"
-date = "2024-01-08T22:43:54+01:00"
+date = "2023-06-08T22:43:54+01:00"
 tags = ["aviation", "ai"]
 +++
 
 # Safe AI Autopilot
+
+[[Source]](https://github.com/iamlucasvieira/HybridRL-FlightControl) [[Paper]](https://arc.aiaa.org/doi/10.2514/6.2025-2795) [[Demo]](https://youtu.be/7ZOf5KNVHAk)
 
 {{< figure src="images/sperry.jpeg" caption="In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight" align="center" >}}
 
