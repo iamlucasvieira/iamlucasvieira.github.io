@@ -2,8 +2,6 @@
 
 My personal website built with Hugo, featuring my blog posts and projects.
 
-**Live Site:** [lucasvieira.nl](https://lucasvieira.nl/)
-
 ## Tech Stack
 
 - [Hugo](https://gohugo.io/) (v0.121.0) - Static site generator
