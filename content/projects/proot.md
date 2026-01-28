@@ -6,11 +6,11 @@ tags = ["rust", "cli"]
 
 # Visualizing PR Dependencies
 
-[[Source]](https://github.com/iamlucasvieira/proot) [[Demo]](https://crates.io/crates/proot)
+[[Source]](https://github.com/lucasctl/proot) [[Demo]](https://crates.io/crates/proot)
 
 There was a time at work when we were drowning in PRs. Like, _a lot_ of PRs. And when you're trying to figure out which one to review first, or why merging one breaks another, or where the bottleneck in your deployment chain is... your brain starts to hurt.
 
-So I built [PRoot](https://github.com/iamlucasvieira/proot) – a CLI that turns your GitHub PRs into an actual graph you can look at. Because sometimes you just need to see the mess you're in.
+So I built [PRoot](https://github.com/lucasctl/proot) – a CLI that turns your GitHub PRs into an actual graph you can look at. Because sometimes you just need to see the mess you're in.
 
 ## The Problem
 
@@ -80,4 +80,4 @@ If you're drowning in PRs like we were, give it a try:
 cargo install proot
 ```
 
-Or check out the [repo](https://github.com/iamlucasvieira/proot) if you want to see how it works.
+Or check out the [repo](https://github.com/lucasctl/proot) if you want to see how it works.

@@ -4,9 +4,9 @@ date = "2024-01-17T13:11:06+01:00"
 tags = ["rust"]
 +++
 
-In my quest to learn Rust, I dived into the first three days of Advent Of Code 2022. Let me tell you... It was very fun. Even though I have [previously solved](https://github.com/iamlucasvieira/advent-of-code-2023/tree/main/2022) those three challenges in Go, Rust allowed me to approach them uniquely.
+In my quest to learn Rust, I dived into the first three days of Advent Of Code 2022. Let me tell you... It was very fun. Even though I have [previously solved](https://github.com/lucasctl/advent-of-code-2023/tree/main/2022) those three challenges in Go, Rust allowed me to approach them uniquely.
 
-You can check out my solutions [here](https://github.com/iamlucasvieira/advent-of-code-2022). And for anyone wanting to use Rust for Advent of Code, you should check this awesome [Rust template](https://github.com/fspoettel/advent-of-code-rust) – it's a lifesaver for setting up and testing your code.
+You can check out my solutions [here](https://github.com/lucasctl/advent-of-code-2022). And for anyone wanting to use Rust for Advent of Code, you should check this awesome [Rust template](https://github.com/fspoettel/advent-of-code-rust) – it's a lifesaver for setting up and testing your code.
 
 ## Day 1 - Calorie Counting
 
@@ -70,36 +70,36 @@ Rust iterators made my solution quite different to my Go approach. It was like t
 
 ```go
 func parseData(data []string) ([]int, error) {
-	var calories = []int{0}
+ var calories = []int{0}
 
-	idx := 0
-	for _, line := range data {
+ idx := 0
+ for _, line := range data {
 
-		if line == "" {
-			calories = append(calories, 0)
-			idx++
-			continue
-		}
+  if line == "" {
+   calories = append(calories, 0)
+   idx++
+   continue
+  }
 
-		calorie, err := strconv.Atoi(line)
-		if err != nil {
-			return nil, err
-		}
+  calorie, err := strconv.Atoi(line)
+  if err != nil {
+   return nil, err
+  }
 
-		calories[idx] += calorie
+  calories[idx] += calorie
 
-	}
-	return calories, nil
+ }
+ return calories, nil
 }
 
 func part1() {
-	fmt.Println("Part 1:")
-	data, err := parseData(utils.ReadFile("input.txt"))
-	if err != nil {
-		panic(err)
-	}
-	maxCalories := slices.Max(data)
-	fmt.Printf("Max calories: %d\n", maxCalories)
+ fmt.Println("Part 1:")
+ data, err := parseData(utils.ReadFile("input.txt"))
+ if err != nil {
+  panic(err)
+ }
+ maxCalories := slices.Max(data)
+ fmt.Printf("Max calories: %d\n", maxCalories)
 }
 ```
 

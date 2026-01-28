@@ -6,7 +6,7 @@ tags = ["game"]
 
 # Pip's Flight: A game in 10 days
 
-[[Source]](https://github.com/iamlucasvieira/pips-flight) [[Demo]](https://hilucas.itch.io/pips-flight)
+[[Source]](https://github.com/lucasctl/pips-flight) [[Demo]](https://hilucas.itch.io/pips-flight)
 
 {{< figure src="images/title.png" align="center" >}}
 

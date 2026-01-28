@@ -6,13 +6,13 @@ tags = ["aviation", "ai"]
 
 # Safe AI Autopilot
 
-[[Source]](https://github.com/iamlucasvieira/HybridRL-FlightControl) [[Paper]](https://arc.aiaa.org/doi/10.2514/6.2025-2795) [[Demo]](https://youtu.be/7ZOf5KNVHAk)
+[[Source]](https://github.com/lucasctl/HybridRL-FlightControl) [[Paper]](https://arc.aiaa.org/doi/10.2514/6.2025-2795) [[Demo]](https://youtu.be/7ZOf5KNVHAk)
 
 {{< figure src="images/sperry.jpeg" caption="In 1914, [Lawrence Sperry](https://www.historynet.com/lawrence-sperry-autopilot-inventor-and-aviation-innovator/) takes to the skies for the world's first autopilot flight" align="center" >}}
 
 I developed a machine-learning autopilot as part of my Master's thesis. The autopilot can control an aircraft even when unexpected failures occur, such as a plane losing part of its wing. By adapting the control strategy, the autopilot ensures the aircraft can still fly safely. If you are interested in the technical details, check:
 
-[Code](https://github.com/iamlucasvieira/HybridRL-FlightControl) / [Paper](https://repository.tudelft.nl/islandora/object/uuid%3A10f5fa68-f934-414a-9067-988f51f098cb?collection=education) / [Demo](https://youtu.be/7ZOf5KNVHAk)
+[Code](https://github.com/lucasctl/HybridRL-FlightControl) / [Paper](https://repository.tudelft.nl/islandora/object/uuid%3A10f5fa68-f934-414a-9067-988f51f098cb?collection=education) / [Demo](https://youtu.be/7ZOf5KNVHAk)
 
 ## The Challenge
 
@@ -34,5 +34,5 @@ In my experiments, I demonstrated how this autopilot can retain control under se
 - **Gymnasium** Used to build the reinforcement learning environment.
 - **Weights & Biases (W&B)** Used for project tracking and MLOps.
 
-[^1]: https://arxiv.org/abs/1801.01290
-[^2]: https://doi.org/10.1016/j.ifacol.2019.12.613
+[^1]: <https://arxiv.org/abs/1801.01290>
+[^2]: <https://doi.org/10.1016/j.ifacol.2019.12.613>

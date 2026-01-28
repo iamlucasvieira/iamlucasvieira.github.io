@@ -21,8 +21,8 @@ My personal website built with Hugo, featuring my blog posts and projects.
 Clone the repository with submodules:
 
 ```bash
-git clone --recursive https://github.com/iamlucasvieira/iamlucasvieira.github.io.git
-cd iamlucasvieira.github.io
+git clone --recursive https://github.com/lucasctl/lucasctl.github.io.git
+cd lucasctl.github.io
 ```
 
 If you already cloned without `--recursive`, initialize the theme submodule:

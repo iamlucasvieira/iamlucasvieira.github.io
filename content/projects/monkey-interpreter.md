@@ -6,7 +6,7 @@ tags = ["rust", "interpreters"]
 
 # Building an Interpreter in Rust
 
-[[Source]](https://github.com/iamlucasvieira/rust-monkey-interpreter)
+[[Source]](https://github.com/lucasctl/rust-monkey-interpreter)
 
 I built an interpreter for the [Monkey programming language](https://monkeylang.org/) in Rust. This is, hands down, my favorite project so far. Not because it's the most practical thing I've ever made, but because it made me understand how programming languages actually work – not just use them.
 
@@ -209,7 +209,7 @@ If I were starting over, I'd add:
 
 ## Try It
 
-The interpreter is on [GitHub](https://github.com/iamlucasvieira/rust-monkey-interpreter). You can run the REPL:
+The interpreter is on [GitHub](https://github.com/lucasctl/rust-monkey-interpreter). You can run the REPL:
 
 ```bash
 cargo run

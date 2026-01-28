@@ -6,7 +6,7 @@ weight = 1
 
 |                                                             |                                                                                                                                               |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| _Backend engineer by day, side project collector by night._ | [[GitHub]](https://github.com/iamlucasvieira) [[LinkedIn]](https://www.linkedin.com/in/iamlucasvieira/) [[Email]](mailto:lucas6eng@gmail.com) |
+| _Backend engineer by day, side project collector by night._ | [[GitHub]](https://github.com/lucasctl) [[LinkedIn]](https://www.linkedin.com/in/lucasctl/) [[Email]](mailto:lucas6eng@gmail.com) |
 
 ---
 

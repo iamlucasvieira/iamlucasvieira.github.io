@@ -8,7 +8,7 @@ Last year, I fell in love with [Go](https://go.dev/). Before that, Python had al
 
 Perhaps I loved Go because it is a "boring" language[^1]. It lacks exciting features. But because it is simple, you can focus on writing good code. Go forced me to be intentional and handle my errors. This paid off by allowing me to find problems earlier rather than lots of debugging later.
 
-While I was learning, I read _"Learning Go"[^2]_ and built two CLIs: [one](https://github.com/iamlucasvieira/hnews) for reading [HackerNews](https://news.ycombinator.com/)' front page and [another](https://github.com/iamlucasvieira/ComTemplate) for templating git commit messages. Creating CLIs is one of my favourite projects. A CLI is a canvas for learning new concepts and a way to build a product that I will actually use. For example, I now use the commit template CLI in all my git repositories.
+While I was learning, I read _"Learning Go"[^2]_ and built two CLIs: [one](https://github.com/lucasctl/hnews) for reading [HackerNews](https://news.ycombinator.com/)' front page and [another](https://github.com/lucasctl/ComTemplate) for templating git commit messages. Creating CLIs is one of my favourite projects. A CLI is a canvas for learning new concepts and a way to build a product that I will actually use. For example, I now use the commit template CLI in all my git repositories.
 
 When December arrived, I was excited about the best yearly event in the programming community: [Advent of Code](https://adventofcode.com/) (AOC). One challenge for each of the first 25 days of December. For 2023, I decided to solve it with Go. An excellent opportunity to learn more about the language, build data structures from scratch and implement different algorithms.
 
