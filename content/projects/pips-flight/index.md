@@ -10,7 +10,7 @@ tags = ["game"]
 
 {{< figure src="images/title.png" align="center" >}}
 
-Last summer I did something I'd been thinking about for years: I finally entered a game jam. [Shovel Jam 2025](https://itch.io/jam/shovel-jam-2025) had the perfect vibe for a first-timer—welcoming community, and a reasonable 10-day timeline, and a interesting theme: "Just Get Started."
+Last summer I finally did something I'd been meaning to do for years: I entered a game jam. [Shovel Jam 2025](https://itch.io/jam/shovel-jam-2025) was a good fit for a first-timer. Welcoming community, a reasonable 10-day timeline, and an interesting theme: "Just Get Started."
 
 The result was [Pip's Flight](https://hilucas.itch.io/pips-flight), a 2D platformer about an owl who can't fly yet. You guide Pip through three levels with limited jumps, trying to collect stars and reach the clouds. I handled everything solo:
 
@@ -22,15 +22,15 @@ The result was [Pip's Flight](https://hilucas.itch.io/pips-flight), a 2D platfor
 
 ## The Idea
 
-The theme "Just Get Started" made me think about first attempts at anything—those awkward early stages where you don't know what you're doing yet. Learning to fly felt like the perfect metaphor. Pip is an owl, but grounded. Each level gives you just enough jumps to make it through, so every leap matters.
+The theme "Just Get Started" got me thinking about first attempts at anything, those awkward early stages where you don't really know what you're doing yet. Learning to fly felt like the right metaphor. Pip is an owl, but grounded. Each level gives you just enough jumps to get through, so every leap matters.
 
-I wanted that feeling of carefully planned movement. You can't spam the jump button—you have to think about your route, commit to it, and sometimes trust that you'll make it across that gap.
+I wanted that feeling of carefully planned movement. You can't spam the jump button. You have to think about your route, commit to it, and sometimes just trust that you'll make it across the gap.
 
 ## Building in Godot
 
 This was my first real [Godot](https://godotengine.org/) project. I picked it because it is lightweight, open-source, and has a nice community. GDScript (Godot's scripting language) felt Python-adjacent enough to just jump in, and the scene system just makes sense once you get it.
 
-The movement system uses a [state machine](https://en.wikipedia.org/wiki/Finite-state_machine) pattern—Idle, Walk, Jump, Fall, Glide. Each state handles its own physics and transitions:
+The movement system uses a [state machine](https://en.wikipedia.org/wiki/Finite-state_machine) pattern: Idle, Walk, Jump, Fall, Glide. Each state handles its own physics and transitions:
 
 ```gdscript
 # From player_state.gd
@@ -52,11 +52,11 @@ func enter(_previous_state_path: String, _data := {}) -> void:
         jump_cooldown.start()
 ```
 
-The state machine handled edge cases cleanly—like preventing mid-air jumps unless you have double-jump unlocked, or transitioning smoothly from glide back to fall when you release the button.
+The state machine handled the edge cases cleanly, like blocking mid-air jumps unless you've unlocked the double jump, or moving smoothly from glide back to fall when you let go of the button.
 
 ## Art and Animations
 
-I love crafts im my free time; sketching, painting, etc. So I was very excited to do the entire art and animations myself. I used [Aseprite](https://www.aseprite.org/) to create the sprites and animations.
+I love crafts in my free time; sketching, painting, that kind of thing. So I was excited to do all the art and animation myself. I used [Aseprite](https://www.aseprite.org/) for the sprites and animations.
 
 {{< figure src="images/animation.gif" caption="Pip's animations" align="center" >}}
 

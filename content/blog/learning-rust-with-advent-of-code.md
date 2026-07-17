@@ -12,9 +12,9 @@ While I was learning, I read _"Learning Go"[^2]_ and built two CLIs: [one](https
 
 When December arrived, I was excited about the best yearly event in the programming community: [Advent of Code](https://adventofcode.com/) (AOC). One challenge for each of the first 25 days of December. For 2023, I decided to solve it with Go. An excellent opportunity to learn more about the language, build data structures from scratch and implement different algorithms.
 
-This year, I want to learn [Rust](https://www.rust-lang.org/learn). Which I think is a natural step after Go. Because Rust is a lower-level language, I will be able to learn more about memory management/safety and performance optimisation in practice.
+This year, I want to learn [Rust](https://www.rust-lang.org/learn), which feels like a natural step after Go. Because Rust is lower-level, I'll get to learn about memory management, safety, and performance in practice.
 
-As a tradition for learning a new language, I will solve AOC. But this time, in Rust. Because It is still January, and I can't wait until December, I will solve 2022's AOC. I have previously solved the first six exercises in Go. Therefore, comparing my solutions in the two languages will be interesting.
+As a tradition for learning a new language, I'll solve AOC, but this time in Rust. It's still January and I can't wait until December, so I'll solve 2022's AOC instead. I've already solved the first six exercises in Go, which means I can compare my solutions across the two languages.
 
 My objective is not to solve all the 25 challenges. The final exercises are very demanding, and I prefer to spend this time building something. After solving the first days, I will probably create a CLI in Rust. I will share my Rust solutions here and am excited to see them compared to Go.
 

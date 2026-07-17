@@ -6,31 +6,31 @@ tags = ["automation"]
 
 # Drone Testing Framework
 
-My software engineering internship with [Avy](https://avy.eu/) allowed me to streamline the testing process for the company's drones. I created a framework that facilitates setting up tests and a user-friendly command-line tool to run them.
+During my software engineering internship at [Avy](https://avy.eu/), I worked on speeding up how the company tested its drones. I built a framework for setting up tests and a command-line tool to run them.
 
 {{< figure src="images/setup.jpg" caption="Setup of the drone testing framework" align="center" >}}
 
 ## The Challenge
 
-Before my project, drone testing was a laborious, manual task. Engineers had to connect to each drone and send commands to check hardware and software integrity. This process was not only time-consuming but also vulnerable to human errors. If a fault was detected, the drone had to be returned for repairs, and the entire testing sequence would have to be rerun.
+Before this project, testing a drone was slow and manual. Engineers connected to each drone by hand and sent commands to check the hardware and software. It took a long time and was easy to get wrong. If they found a fault, the drone went back for repairs and the whole test sequence had to start over.
 
 ## The Solution
 
-I created a framework that allows engineers to pre-program a communication sequence with the drones, which automatically evaluates the drones' responses. To make things smoother, I built a command-line tool to execute these tests at the push of a button, saving both time and sanity.
+I built a framework where engineers pre-program a sequence of commands for the drone, and the framework checks the responses automatically. On top of that I built a command-line tool to run the tests with a single command, which saved a lot of time and frustration.
 
 {{< figure src="images/aat.png" caption="CLI interface of the automated testing tool." align="center" >}}
 
 ## Overcoming Difficulties
 
-My initial vision for this tool included wireless connections to the drones. However, implementing this feature presented a couple of challenges. First, a wireless system would make the tool dependent on the drone's firmware authentication system. Secondly, a tool that wirelessly connects to any drone could be a security risk. Think about someone reverse-engineering it and using it to control a drone remotely.
+I originally wanted the tool to connect to the drones wirelessly, but that ran into two problems. First, it would have tied the tool to the drone's firmware authentication system. Second, a tool that connects to any drone wirelessly is a security risk. Imagine someone reverse-engineering it and using it to control a drone remotely.
 
-After weighing the pros and cons, I opted for a USB connection, which was more straightforward and more efficient. This method had two perks. First, it instantly establishes a communication link between the computer and the drone. Second, it signals the drone's firmware to ignore any movement commands, ensuring safety during testing.
+So I went with a USB connection instead, which turned out to be simpler and more reliable. It had two nice side effects. It sets up the link between the computer and the drone instantly, and it tells the drone's firmware to ignore movement commands, which keeps things safe during testing.
 
-The USB solution also made it easier to use the tool. All the production team needed to do was plug in the drone, run the command `aat run`, and voila! The tests were executed automatically, and a detailed report was generated.
+USB also made the tool much easier to use. The production team just plugs in the drone, runs `aat run`, and the tests run on their own and produce a report at the end.
 
 ## The Impact
 
-This new framework significantly reduced testing time, bringing higher efficiency and reliability to Avy's production process. The Automated Testing Framework allows the production team to allocate more time for complex tasks while the tool is autonomously testing the drones.
+The framework cut testing time a lot and made Avy's production process more reliable. The team can now spend their time on harder tasks while the tool tests the drones on its own.
 
 ## Technology Stack
 

@@ -8,7 +8,7 @@ tags = ["rust", "interpreters"]
 
 [[Source]](https://github.com/lucasctl/rust-monkey-interpreter)
 
-I built an interpreter for the [Monkey programming language](https://monkeylang.org/) in Rust. This is, hands down, my favorite project so far. Not because it's the most practical thing I've ever made, but because it made me understand how programming languages actually work – not just use them.
+I built an interpreter for the [Monkey programming language](https://monkeylang.org/) in Rust. This is, hands down, my favorite project so far. Not because it's the most practical thing I've ever made, but because it made me understand how programming languages actually work, not just use them.
 
 I started with [Writing an Interpreter in Go](https://interpreterbook.com/) and [Crafting Interpreters](https://craftinginterpreters.com/). Both are excellent. But here's the thing: the first book uses Go, and I was learning Rust. So I decided to translate the concepts myself rather than copy-paste Go code.
 
@@ -38,10 +38,10 @@ Nothing groundbreaking, but enough complexity to make things interesting.
 
 Building an interpreter means building four main pieces:
 
-1. **Lexer** – turns source code into tokens
-2. **Parser** – turns tokens into an Abstract Syntax Tree ([AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree))
-3. **Evaluator** – walks the AST and executes it
-4. **Environment** – stores variables and their values
+1. **Lexer**: turns source code into tokens
+2. **Parser**: turns tokens into an Abstract Syntax Tree ([AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree))
+3. **Evaluator**: walks the AST and executes it
+4. **Environment**: stores variables and their values
 
 The flow is straightforward: `Source Code → Lexer → Parser → AST → Evaluator → Result`
 

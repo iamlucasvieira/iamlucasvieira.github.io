@@ -10,7 +10,7 @@ tags = ["rust", "cli"]
 
 There was a time at work when we were drowning in PRs. Like, _a lot_ of PRs. And when you're trying to figure out which one to review first, or why merging one breaks another, or where the bottleneck in your deployment chain is... your brain starts to hurt.
 
-So I built [PRoot](https://github.com/lucasctl/proot) – a CLI that turns your GitHub PRs into an actual graph you can look at. Because sometimes you just need to see the mess you're in.
+So I built [PRoot](https://github.com/lucasctl/proot), a CLI that turns your GitHub PRs into an actual graph you can look at. Sometimes you just need to see the mess you're in.
 
 ## The Problem
 
@@ -41,7 +41,7 @@ You can also:
 
 ## Why Rust?
 
-I've been learning Rust, and this felt like the perfect project. It's a CLI tool – no complex UI, just some data processing and pretty terminal output. Plus, I wanted to play with:
+I've been learning Rust, and this felt like a good fit. It's a CLI tool, no complex UI, just some data processing and pretty terminal output. Plus, I wanted to play with:
 
 - **Clap** for argument parsing (it's ridiculously easy)
 - **Serde** for JSON handling (GitHub CLI outputs JSON)

@@ -6,23 +6,23 @@ tags = ["space", "simulation"]
 
 # Parachute and Wind Simulator
 
-At [Delft Aerospace Rocket Engineering (DARE)](https://dare.tudelft.nl/), I was part of the simulation team where we tackled the complexities of parachute aerodynamics. There, I created a wind tunnel simulator that simulates and generates data on how a parachute interacts with airflow during deployment.
+At [Delft Aerospace Rocket Engineering (DARE)](https://dare.tudelft.nl/), I was on the simulation team, working on parachute aerodynamics. I built a wind tunnel simulator that models how a parachute interacts with airflow as it deploys and generates data from it.
 
 {{< figure src="images/flow.gif" caption="Parachute and wind simulator" align="center" >}}
 
 ## The Challenge
 
-Designing rocket recovery parachutes is a complex task, especially when starting from scratch, like the parachute research group at DARE. The wind tunnels, the facilities used for testing such designs, are in high demand, and the time slots are scarce. This makes each wind tunnel session extremely valuable. Therefore, there is a need for a tool that can help engineers pre-test design modifications before committing to full-scale wind tunnel testing.
+Designing rocket recovery parachutes is hard, especially when you're starting from scratch like DARE's parachute research group was. Real testing happens in wind tunnels, and those are in high demand with very few free slots. Every session counts, so it helps to have a way to pre-test design changes before booking full wind tunnel time.
 
 ## The Solution
 
-I collaborated with a team member to create a software tool that simulates the airflow dynamics around a parachute. The tool allows users to input various parameters to define the shape of the parachute and then run a simulation. We implemented numerical methods to simulate airflow and algorithms to manage collisions between the parachute cloth and ropes. This tool enabled the engineers at DARE to quickly evaluate design modifications and provided valuable experience to the simulation team in building such software from scratch.
+Together with a teammate, I built a tool that simulates the airflow around a parachute. You set the parameters that define the parachute's shape, then run the simulation. We used numerical methods for the airflow and wrote algorithms to handle collisions between the parachute cloth and the ropes. It let DARE's engineers try out design changes quickly, and it gave our team real experience building this kind of software from scratch.
 
 {{< figure src="images/parachute.gif" caption="Parachute cloth and ropes simulation" align="center" >}}
 
 ## Technology Stack
 
-- **Python**: Used as the main programming language of the project
-- **C++**: Used for computationally intensive simulation aspects.
-- **TKinter**: The library behind the interface for setting up parachute and simulation properties.
-- **Cython**: Used to allow Python to communicate with C++ code.
+- **Python**: the main language for the project.
+- **C++**: for the parts of the simulation that needed to be fast.
+- **TKinter**: for the interface to set up parachute and simulation properties.
+- **Cython**: to let the Python code talk to the C++ code.
